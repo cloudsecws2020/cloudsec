@@ -2,9 +2,9 @@ version: 2.1
 
 orbs:
   maven: circleci/maven@0.0.12
-app_src_directory: webapp
 
 workflows:
   maven_test:
     jobs:
-      - maven/test
+      - maven/test:
+        app_src_directory: webapp
