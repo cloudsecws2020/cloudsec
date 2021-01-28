@@ -7,8 +7,4 @@ workflows:
   maven_test:
     jobs:
       - maven/test:
-<<<<<<< HEAD
          app_src_directory: webapp/
-=======
-         app_src_directory: webapp
->>>>>>> b6b47b60ad6dbadf25ec8cc6145432a26d7789dd
